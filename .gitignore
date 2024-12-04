@@ -1,0 +1,49 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environment directories
+venv/
+env/
+*.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE/editor files
+.idea/
+.vscode/
+
+# Ignore Spark log files
+*.log
+spark-warehouse/
+metastore_db/
+
+# Ignore data files (if you don't want to track datasets)
+*.csv
+*.tsv
+*.json
+*.h5
+*.npy
+*.pkl
+*.dat
+
+# Ignore HDFS-related files (temporary files, output logs, etc.)
+hdfs_output/
+temp/
+
+# Ignore compiled extensions or system files
+*.so
+*.dylib
+*.dll
+
+# Ignore dependencies (you might want to keep requirements.txt instead)
+*.egg
+*.egg-info
+dist/
+build/
+
+# Ignore the libs folder
+/libs/
+*.zip
